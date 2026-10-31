@@ -31,4 +31,4 @@ This project involves designing, developing, and testing a relational database f
 Saeed Muhammad
 
 # Purpose
-Developed for an individual database development assessment.
+Developed as part of an individual database development assessment.
