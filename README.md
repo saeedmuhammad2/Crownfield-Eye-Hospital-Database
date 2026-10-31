@@ -32,3 +32,7 @@ Saeed Muhammad
 
 # Purpose
 Developed as part of an individual database development assessment.
+
+#File Naming Note
+The SQL files have been renamed using a numbered naming convention (01–06) to maintain a clear and logical execution order in the GitHub repository. 
+The original SQL file contents have been retained; only the filenames have been changed for organisation and easier navigation.
