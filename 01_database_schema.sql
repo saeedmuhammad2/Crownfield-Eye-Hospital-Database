@@ -216,3 +216,11 @@ CREATE TABLE appointment_audit (
     changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     changed_by VARCHAR(100)
 );
+
+-- Add a foreign key to the existing appointment_audit table.
+-- Link appointment_audit.appointment_id to appointment.appointment_id.
+-- This ensures that each audit record references a valid appointment.
+ALTER TABLE appointment_audit
+ADD CONSTRAINT fk_appointment_audit_appointment
+FOREIGN KEY (appointment_id)
+REFERENCES appointment(appointment_id);
