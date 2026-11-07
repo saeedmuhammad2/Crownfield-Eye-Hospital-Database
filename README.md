@@ -21,6 +21,7 @@ This project involves designing, developing, and testing a relational database f
 4. 04_procedure_and_triggers.sql – Creates stored procedures and triggers.
 5. 05_database_security.sql – Implements database roles, permissions and encryption.
 6. 06_individual_queries.sql – Contains six individual SQL activities for Student 3.
+7. A_03_Final_ERD.png – Shows the final Entity Relationship Diagram (ERD), including the database.
 
 # Technologies
 - MySQL 8.0.46
